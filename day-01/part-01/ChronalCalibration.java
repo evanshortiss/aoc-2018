@@ -8,7 +8,7 @@ public class ChronalCalibration {
 		try {
 			int resultingFrequency = 0;
 			String line = null;
-			FileReader fileReader = new FileReader("input.txt");
+			FileReader fileReader = new FileReader("../input.txt");
 			BufferedReader bufferedReader = new BufferedReader(fileReader);
 			
 			while ((line = bufferedReader.readLine()) != null) {

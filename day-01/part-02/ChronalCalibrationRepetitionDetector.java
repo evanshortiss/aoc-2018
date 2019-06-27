@@ -42,7 +42,7 @@ public class ChronalCalibrationRepetitionDetector {
 	public static List<Integer> getLineValues () throws FileNotFoundException, IOException, NumberFormatException {
 		String line = null;
 		List<Integer> frequencies = new ArrayList<>();
-		FileReader fileReader = new FileReader("input.txt");
+		FileReader fileReader = new FileReader("../input.txt");
 		BufferedReader bufferedReader = new BufferedReader(fileReader);
 		
 		while ((line = bufferedReader.readLine()) != null) {
